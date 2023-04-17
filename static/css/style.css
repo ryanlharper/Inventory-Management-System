@@ -1,0 +1,83 @@
+.btn {
+  background-color: lightgrey;
+  color: white;
+  padding: 6px 6px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  text-decoration-style: none;
+  font-family: Calibri, sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1c1c1c;
+  font-family: Calibri, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #bebdbd;
+  font-family: Arial, sans-serif;
+}
+
+thead tr {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td:first-child,
+th:first-child {
+  width: 10%;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+  width: 10%;
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+  width: 10%;
+}
+
+td:nth-child(4),
+th:nth-child(4) {
+  width: 10%;
+}
+
+td:nth-child(5),
+th:nth-child(5) {
+  width: 15%;
+}
+
+td:nth-child(6),
+th:nth-child(6) {
+  width: 15%;
+}
+
+td:last-child,
+th:last-child {
+  width: 15%;
+}

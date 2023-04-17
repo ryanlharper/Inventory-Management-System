@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+{% block content %}
+{{ block.super }}
+
+{% if user.is_authenticated %}
+<h2>Inventory Management System</h2>
+
+{% else %}
+  <p>You are not logged in</p>
+
+{% endif %}
+{% endblock %}
